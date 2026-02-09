@@ -22,8 +22,8 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out for anything!
-          I'm always open to discussing new opportunities.
+          Have a project in mind or want to collaborate... or simply want to say hi. 
+          Feel free to reach out for anything!
         </p>
 
         <div className="flex justify-center">

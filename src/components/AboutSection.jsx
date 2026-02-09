@@ -12,20 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Software developer, livin like larry :)
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in software development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With a background in computer science and hands-on experience across web development, AI-driven
+              projects, and data analysis, I build thoughtful, impactful software while continuously learning new technologies growing as a
+              person.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Beyond the code, I watch soccer (VISCA BARCA), love to get involved in extraciricular activities at my school, 
+              and be a free spirited workaholic while always looking to learn. To read up more about my life check out
+              the BLOG section!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -64,10 +63,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">AI & Intelligent Systems</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Applying AI to real-world problems through data analysis, game AI, and intelligent tools that evaluate, guide, and enhance user outcomes.
                   </p>
                 </div>
               </div>
@@ -79,10 +77,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Leadership & Advocacy</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Leading teams and initiatives that empower communities, drive student advocacy, and create impact through technical, educational, and civic engagement.
                   </p>
                 </div>
               </div>
