@@ -1,21 +1,38 @@
-# React + Vite
+# Alex Vallejos – Portfolio
 
-Initial template to set up my personal portfolio!
+Personal portfolio website showcasing my projects, skills, and experience as a Computer Science student and aspiring full-stack developer.
 
-Currently, two official plugins are available:
+🌐 Live site: https://alexvallejos.dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- Tailwind CSS
+- JavaScript / TypeScript
+- GitHub Pages (deployment)
+- Namecheap (custom domain)
 
-## React Compiler
+## Features
+- Responsive, mobile-first design
+- Projects section with live demos and GitHub links
+- About section highlighting background and interests
+- Contact section for easy reach
+- Blog section to get a summary of my life.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Purpose
+This portfolio was built to:
+- Practice modern front-end development
+- Showcase real projects and skills
+- Serve as a central hub for recruiters and collaborators
 
-## Expanding the ESLint configuration
+## Future Improvements
+- Backend integration (authentication + comments)
+- AI-powered project (resume ↔ job analyzer)
+- Spotify API integration (currently playing / top tracks)
+- Dark mode and UI polish
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-## Socials
-LinkedIn:
-
-Instagram:
+## Setup (Local Development)
+```bash
+git clone https://github.com/shakyskillzz/portfolio.git
+cd portfolio
+npm install
+npm run dev
