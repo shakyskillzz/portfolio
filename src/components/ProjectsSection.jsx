@@ -16,19 +16,19 @@ const projects = [
     description:
       "Designed and developed the UCF Esports team website, providing a dynamic platform to share team news, highlight players, and showcase events with an intuitive user experience.",
     image: "/projects/project1.png",
-    tags: ["React", "TypeScript", "SQL", "HTML/CSS", "MongoDB", "Swaggerhub/Postman"],
+    tags: ["React", "JavaScript", "SQL", "HTML/CSS", "MongoDB", "Swaggerhub/Postman"],
     demoUrl: "#",
     githubUrl: "https://github.com/shakyskillzz/UCFesports",
   },
   {
     id: 3,
-    title: "AI Resume Job Matcher & Career Roadmap",
+    title: "AI Resume Analyzer",
     description:
-      "An AI application where users input their resume along with a company, job title, and job description, and receive a match score plus a personalized roadmap of skills and experiences to improve their chances of landing that role",
+      "Allows you to upload resume and job description and returns in detail an ATS score and feedback on how well your fit for the job",
     image: "/projects/project3.png",
-    tags: ["", "", ""],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["TypeScript", "TailWindCSS", "React", "Puter"],
+    demoUrl: "https://puter.com/app/awsome-ai-resume-analyzer",
+    githubUrl: "https://github.com/shakyskillzz/ai_resume_analyzer",
   },
 ];
 
