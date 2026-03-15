@@ -21,9 +21,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create clean, impactful software experiences using modern web technologies. 
-            With a focus on full stack development and applied AI,
-            I build interfaces and systems that are both intuitive for users and powerful behind the scenes.
+            UCF Computer Science Student - I'm a developer, dreamer, and someone who builds himself the same way he builds software. 
+            With a growth mindset and an indomitable human spirit, I've turned rock bottom into a foundation. 
+            I bring that same drive and energy in all the work I do.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

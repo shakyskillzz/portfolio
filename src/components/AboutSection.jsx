@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import { SpotifyWidget } from "./SpotifyWidget"; 
 
 export const AboutSection = () => {
   return (
@@ -9,10 +10,10 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Software developer, livin like larry :)
+              Software developer - livin like larry
             </h3>
 
             <p className="text-muted-foreground">
@@ -30,14 +31,14 @@ export const AboutSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
-                Get In Touch
+                Get In Touch!
               </a>
 
               <a
-                href="../../public/projects/resume.pdf" target="_blank"
+                href="/projects/resume.pdf" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
@@ -85,6 +86,12 @@ export const AboutSection = () => {
               </div>
             </div>
           </div>
+          <div className="flex flex-col items-center gap-4">
+          <h3 className="text-lg font-semibold text-foreground/70">
+            What I'm Listening To
+          </h3>
+          <SpotifyWidget />
+        </div>
         </div>
       </div>
     </section>
