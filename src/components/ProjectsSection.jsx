@@ -30,6 +30,15 @@ const projects = [
     demoUrl: "https://puter.com/app/awsome-ai-resume-analyzer",
     githubUrl: "https://github.com/shakyskillzz/ai_resume_analyzer",
   },
+  {
+    id: 4,
+    title: "Alex's Wall",
+    description: "A full stack guestbook where people can log in and leave a message like a sticky note about me and you! Currently in development.",
+    image: "/projects/temp.png",
+    tags: ["React", "Firebase", "Tailwind CSS", "Node.js + Express", "PostgreSQL", "Prisma"],
+    demoUrl: "#",
+    githubUrl: "#",
+},
 ];
 
 export const ProjectsSection = () => {
